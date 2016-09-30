@@ -1,0 +1,11 @@
+{
+  "name": "WhacAMole",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "~4.11.0",
+    "ejs": "~2.1.4",
+    "path": "~0.11.14",
+    "compression": "~1.6.1"
+  },
+  "author": "Dylan Broussard <deraw@outlook.fr>"
+}
