@@ -6,10 +6,10 @@ var express 	= require('express'),
 	port = 8001;
 
 // Use maximal compression
-.use(compression({level: 9}))
+app.use(compression({level: 9}));
 
 // Routes
-.get('/', function(req, res)
+app.get('/', function(req, res)
 {
 	res.render('index.ejs');
 })
